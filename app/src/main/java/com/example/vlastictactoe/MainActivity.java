@@ -8,7 +8,6 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -55,10 +54,23 @@ public class MainActivity extends AppCompatActivity {
             }
         };
 
+        View.OnClickListener btn_start_clk = new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                for(int i=0; i<9; i++)
+                {
+                    Button j = (Button)buttons.get(i);
+                    j.setEnabled(true);
+                    j.setText("");
+                }
+            }
+        };
 
+        btn_start.setOnClickListener(btn_start_clk);
         for(int id : BUTTON_IDS) {
             Button button = (Button) findViewById(id);
             button.setOnClickListener(btn_clk);
+            button.setEnabled(false);
             buttons.add(button);}
         }
     }
