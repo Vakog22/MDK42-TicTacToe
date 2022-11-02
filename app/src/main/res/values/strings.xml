@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">VlasTicTacToe</string>
+    <string name="result_none">Нажмите кнопку "Начать"</string>
+    <string name="result_x_won">х</string>
+    <string name="result_y_won">о</string>
+    <string name="result_draw">н</string>
 </resources>
