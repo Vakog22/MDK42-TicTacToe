@@ -13,6 +13,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="50dp"
         android:text="@string/result_none"
+        android:textSize="20dp"
 
         android:id="@+id/tv_output"/>
 
@@ -24,16 +25,22 @@
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="100dp"
                 android:layout_height="100dp"
+                android:background="@drawable/sp_basic_cell"
+                android:textSize="60dp"
 
                 android:id="@+id/btn_0_0"/>
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="100dp"
                 android:layout_height="100dp"
+                android:background="@drawable/sp_basic_cell"
+                android:textSize="60dp"
 
                 android:id="@+id/btn_0_1"/>
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="100dp"
                 android:layout_height="100dp"
+                android:background="@drawable/sp_basic_cell"
+                android:textSize="60dp"
 
                 android:id="@+id/btn_0_2"/>
         </TableRow>
@@ -41,16 +48,22 @@
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="100dp"
                 android:layout_height="100dp"
+                android:background="@drawable/sp_basic_cell"
+                android:textSize="60dp"
 
                 android:id="@+id/btn_1_0"/>
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="100dp"
                 android:layout_height="100dp"
+                android:background="@drawable/sp_basic_cell"
+                android:textSize="60dp"
 
                 android:id="@+id/btn_1_1"/>
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="100dp"
                 android:layout_height="100dp"
+                android:background="@drawable/sp_basic_cell"
+                android:textSize="60dp"
 
                 android:id="@+id/btn_1_2"/>
         </TableRow>
@@ -58,16 +71,22 @@
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="100dp"
                 android:layout_height="100dp"
+                android:background="@drawable/sp_basic_cell"
+                android:textSize="60dp"
 
                 android:id="@+id/btn_2_0"/>
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="100dp"
                 android:layout_height="100dp"
+                android:background="@drawable/sp_basic_cell"
+                android:textSize="60dp"
 
                 android:id="@+id/btn_2_1"/>
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="100dp"
                 android:layout_height="100dp"
+                android:background="@drawable/sp_basic_cell"
+                android:textSize="60dp"
 
                 android:id="@+id/btn_2_2"/>
         </TableRow>
@@ -78,7 +97,8 @@
         android:layout_height="100dp"
         android:layout_marginTop="100dp"
         android:layout_gravity="center"
-
+        android:background="@drawable/sp_basic_cell"
+        android:text="Начать игру"
         android:id="@+id/btn_start"/>
 
 </androidx.appcompat.widget.LinearLayoutCompat>
